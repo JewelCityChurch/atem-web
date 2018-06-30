@@ -1,0 +1,63 @@
+html, body {
+	background-color: black;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+#top-container {
+	vertical-align: middle;
+	width: 100%;
+	text-align: center;
+	height: 65%;
+	display: table;
+}
+.hidden {
+	display: none !important;
+}
+#top-container div {
+	width: 100%;
+}
+#btm-container {
+	background-color: #111;
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+}
+.thirtyFive {
+	height: 35%;
+}
+.hundred {
+	height: 100%;
+}
+#cameras {
+	display: table-row;
+	flex-flow: row;
+	height: 100%;
+}
+#cameras-top {
+	display: table-row;
+	flex-flow: row;
+	height: 100%;
+}
+.camera {
+	padding:auto;
+	color: white;
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+	height: 100%;
+	border-left: 1px solid #222;
+	border-right: 1px solid #222;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.camera div {
+	background-color:rgba(0,0,0,0.5);
+	width: 100%;
+}
+.program {
+	background-color: red !important;
+}
+.preview {
+	background-color: yellow;
+}
